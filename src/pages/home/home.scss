@@ -1,3 +1,42 @@
 page-home {
 
+   div.tabbar.show-tabbar {
+       background-color:#ff2c55;
+       color: #fff;
+    
+        span.tab-button-text{
+            color: #F2F2F2;
+        }
+
+   }
+
+   ion-tabs.tabs.tabs {
+    margin-top:33vh;    
+}
+
+ion-slides { 
+    background-color:grey;
+    height:33vh;
+}
+
+h2 {
+    color:#fff;
+    text-align: left;
+    padding-left: 2vh;
+    font-size: 3vh;
+    margin-top: 10vh;
+}
+
+button.swiper-pagination-bullet.swiper-pagination-bullet-active{
+    background-color:#fff;
+}
+
+button.swiper-pagination-bullet { 
+    background-color:#fff;
+}
+
+div.toolbar-title.toolbar-title-ios { 
+    color:#fff;
+}
+
 }

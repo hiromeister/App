@@ -1,0 +1,12 @@
+<ion-content>
+  <ion-list>
+    <ion-item *ngFor="let feed of feeds">
+      <ion-thumbnail item-left>
+        <img [src]="feed.data.thumbnail">
+      </ion-thumbnail>
+      <h3>{{feed.data.title}}</h3>
+      <button ion-button (click)="regularShare()">... </button>
+
+    </ion-item>
+  </ion-list>
+</ion-content>

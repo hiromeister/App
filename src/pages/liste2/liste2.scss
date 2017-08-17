@@ -1,0 +1,27 @@
+page-liste2 {
+
+    
+    button.disable-hover.item-button.button.button-ios.button-default.button-ios{
+        width: 1vh;
+        float:right;
+        color: grey;
+        background-color: #fff;
+        font-size: 25px;
+    }
+        button.disable-hover.item-button.button.button-md.button-default.button-md{
+        width: 1vh;
+        float:right;
+        color: grey;
+        background-color: #fff;
+        font-size: 25px;
+    }
+
+    .item-ios h3{
+        font-weight: 500;
+    }
+
+    .item-md h3{
+        font-weight: 400;
+
+    }
+}

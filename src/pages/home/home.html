@@ -1,18 +1,28 @@
+<ion-content class="tabsMenu">
+
 <ion-header>
-  <ion-navbar>
+  <ion-navbar transparent>
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
-    <ion-title>Home</ion-title>
+    <ion-title color="#fff" text-center>Actualité</ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  <h3>Ionic Menu Starter</h3>
+  <ion-slides pager>
+    <ion-slide *ngFor="let feed of feeds | slice:0:5">
+      <h2 class="slideTitle">{{feed.data.title}}</h2>
+    </ion-slide>
+  </ion-slides>
 
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will show you the way.
-  </p>
-
-  <button ion-button secondary menuToggle>Toggle Menu</button>
+  <ion-tabs tabs-only>
+    <ion-tab tabTitle="All" [root]="tab1Root"></ion-tab>
+    <ion-tab tabTitle="Featured" [root]="tab2Root"></ion-tab>
+    <ion-tab tabTitle="Popular" [root]="tab3Root"></ion-tab>
+    <ion-tab tabTitle="My Favorites" [root]="tab4Root"></ion-tab>
+  </ion-tabs>
 </ion-content>
+
+
+
+

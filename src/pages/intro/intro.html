@@ -1,0 +1,105 @@
+<ion-content>
+  <ion-slides pager (ionSlideDidChange)="slideChanged()">
+
+    <ion-slide>
+      <div class="diag">
+        <div class="info1">
+          <ion-icon ios="ios-checkmark-circle-outline" md="md-checkmark-circle-outline" color="white">
+            <p>Lorem ipsum dolor sit amet, consectetur</p>
+          </ion-icon>
+        </div>
+        <ion-icon ios="ios-checkmark-circle-outline" md="md-checkmark-circle-outline" color="white">
+          <p>Lorem ipsum dolor sit amet, consectetur</p>
+        </ion-icon>
+        <ion-icon ios="ios-checkmark-circle-outline" md="md-checkmark-circle-outline" color="white">
+          <p>Lorem ipsum dolor sit amet, consectetur</p>
+        </ion-icon>
+      </div>
+
+      <div>
+        <h2>Manage your task quickly and efficiently</h2>
+      </div>
+    </ion-slide>
+
+    <ion-slide>
+      <div class="diag">
+        <div class="logo2">
+          <ion-icon ios="ios-trophy" md="md-trophy"></ion-icon>
+        </div>
+      </div>
+      <div>
+        <h2>Manage your task quickly and efficiently</h2>
+      </div>
+    </ion-slide>
+
+    <ion-slide>
+      <div class="diag" style="background:url('https://image.freepik.http://www.solidbackgrounds.com/images/2560x1440/2560x1440-white-solid-color-background.jpg/free-vector/red-geometrical-background_1085-125.jpg') no-repeat">
+        <div class="logo3">
+          <ion-icon ios="ios-trending-up" md="md-trending-up"></ion-icon>
+        </div>
+      </div>
+      <div>
+        <h2>Manage your task quickly and efficiently</h2>
+      </div>
+    </ion-slide>
+  </ion-slides>
+
+  <button (click)="skip()" id="skip" text-right> {{skipMsg}}</button>
+</ion-content>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <ion-slides pager>
+
+  <ion-slide>
+    <img src="assets/img/intro1.png">
+    <p>Manage your tasks quickly and efficiently</p>
+    <p bottom- right>Skip</p>
+  </ion-slide>
+
+    
+  <ion-slide>
+    <img src="assets/img/intro1.png">
+  </ion-slide>
+
+
+  <ion-slide>
+    <img src="http://ecodile.com/wp-content/uploads/2015/10/ionic.png">
+  </ion-slide>
+
+
+  <ion-slide>
+    <ion-row>
+      <ion-col>
+        <img src="http://ecodile.com/wp-content/uploads/2015/10/ionic.png">
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <button ion-button color="light" (click)="goToHome()"> Compris! </button>
+      </ion-col>
+    </ion-row>
+  </ion-slide>
+
+</ion-slides> -->

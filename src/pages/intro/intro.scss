@@ -1,0 +1,116 @@
+// .ios, .md {
+ 
+//   page-intro {
+ 
+//     ion-slide {
+//      background-color:#fff; 
+//     }
+ 
+//     ion-slide img {
+//       height: 70vh !important;
+//       width: 100vh !important;
+//     }
+ 
+//   }
+
+//   p{
+//     font-size: 3.7  vh;
+//   }
+  
+//   button.swiper-pagination-bullet.swiper-pagination-bullet-active {
+//     background-color:#ff2c55;
+//   }
+// }
+
+
+
+
+
+
+
+page-intro {
+
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+*{ font-family: 'Raleway', sans-serif;
+}
+
+
+.diag {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    top:0;
+    height: 66%;
+}
+
+ion-icon { 
+    font-size: 3em;
+    color:#fff;
+    
+}
+
+.diag { margin-top:40%;}
+
+h2 { margin-top: 100%;
+    font-size: 25px;
+    color: #fff;
+
+
+}
+
+p {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    font-size:.9em;
+    color: #F2F2F2;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #fff;
+}
+
+.swiper-pagination { 
+    bottom: 12% !important;
+}
+
+#skip { 
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    background:none !important;
+    z-index:5;
+    text-align:center;
+    color: #f2f2f2;
+    padding-right: 10px;
+}
+
+ion-icon p { 
+    font-size: 16px;
+    
+}
+
+ion-icon, ion-icon p { display:inline;}
+
+
+.logo2, .logo3 { 
+    font-size: 3em;
+
+    .opaque {
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+
+.opaque .toolbar-background {
+  background-color: rgba(#f8f8f8, 0.55);
+}
+}
+
+  div.scroll-content{
+   
+       background-color:#ff2c55;
+  }
+
+}
